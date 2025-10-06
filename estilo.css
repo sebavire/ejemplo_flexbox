@@ -1,0 +1,46 @@
+.contenedor {
+  width: 80%;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 10px;
+  height: 200px; /*alto del contenedor*/
+
+  display: flex; /*activa flexbox, por defecto los elementos se ordenan en fila*/
+  /*flex-direction: column; /*ordena los elementos en una columna*/
+
+  gap: 20px; /*espacio entre los elementos*/
+
+  justify-content: center; /*Alineación en el eje principal. Otras opciones: flex-start, flex-end, space-between, space-around */
+ 
+  align-items: center; /*Alineación en el eje transversal. Otras opciones: flex-start, flex-end, stretch(se estira) */
+
+  flex-wrap: wrap; /*Si los elementos no entran en una fila bajan a la siguiente*/
+
+  overflow-y: auto;    /* aparece barra de scroll vertical */
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(107, 235, 252);
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  /*margin: auto;*/
+}
+
+
+
+
+h1{
+    font-family: sans-serif;
+    font-size: 28px;
+}
+li{
+    font-family: sans-serif;
+    font-size: 18px;
+}
